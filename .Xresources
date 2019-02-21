@@ -1,0 +1,85 @@
+! Base colors
+!*.foreground:  #E1E1E1
+!*.background:  #0c0c0c
+!*.cursorColor: #778899
+!*.color0:  #0c0c0c
+!*.color1:  #305D49
+!*.color2:  #41705C
+!*.color3:  #567F60
+!*.color4:  #678F6D
+!*.color5:  #829D72
+!*.color6:  #9AB284
+!*.color7:  #BFC594
+!*.color8:  #225A49
+!*.color9:  #305D49
+!*.color10: #41705C
+!*.color11: #567F60
+!*.color12: #678F6D
+!*.color13: #829D72
+!*.color14: #9AB284
+!*.color15: #BFC594
+
+! special
+*.foreground:   #a7a7a7
+*.background:   #1e1e1e
+*.cursorColor:  #a7a7a7
+
+! black
+*.color0:       #1e1e1e
+*.color8:       #5f5a60
+
+! red
+*.color1:       #cf6a4c
+*.color9:       #cf6a4c
+
+! green
+*.color2:       #8f9d6a
+*.color10:      #8f9d6a
+
+! yellow
+*.color3:       #f9ee98
+*.color11:      #f9ee98
+
+! blue
+*.color4:       #7587a6
+*.color12:      #7587a6
+
+! magenta
+*.color5:       #9b859d
+*.color13:      #9b859d
+
+! cyan
+*.color6:       #afc4db
+*.color14:      #afc4db
+
+! white
+*.color7:       #a7a7a7
+*.color15:      #ffffff
+
+
+! URxvt
+URxvt*saveline: 15000
+URxvt*termName: rxvt-256color
+URxvt*iso14755: false
+URxvt*depth: 32
+URxvt*background: #141516
+URxvt*scrollBar: false
+URxvt*scrollBar_right: false
+URxvt*internalBorder: 0
+URxvt*externalBorder: 0
+URxvt*letterSpace: -1
+URxvt.font: xft:monospace:size=11
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.m-c: perl:clipboard:copy
+URxvt.keysym.m-v: perl:clipboard:paste
+URxvt.urlLauncher: exo-open
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
+URxvt.geometry: 90x34
+URxvt.tabbed.tabbar-fg: 4
+URxvt.tabbed.tabbar-bg: 16
+URxvt.tabbed.tab-fg: 15
+URxvt.tabbed.tab-bg: 4
+URxvt*buffered: false
