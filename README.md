@@ -4,5 +4,5 @@ bspwm,
 ranger,
 sxhkd (bspwm),
 URxvt (xresources),
-Zsh (oh-my-zsh),
+Zsh (not really) (prezto),
 Comton.
